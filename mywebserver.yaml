@@ -3,5 +3,5 @@
   tasks: 
   - name: i want to install webserver ubutu node
     apt:
-      name:
-      state: present
+      name: apache2
+      state: present 
