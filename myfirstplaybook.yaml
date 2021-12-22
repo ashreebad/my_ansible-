@@ -16,5 +16,5 @@
   - name: install wget on ubuntu nodes
     apt:
        name: wget
-       state: present
+       state: present 
   
