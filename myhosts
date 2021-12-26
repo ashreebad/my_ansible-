@@ -18,5 +18,5 @@
 172.31.17.197
 
 [mywebservers:vars]
-mywebpackforubuntu=apache222222
+mywebpackforubuntu=apache2
 mywebpackforredhat=httpd
