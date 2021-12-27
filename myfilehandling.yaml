@@ -1,6 +1,6 @@
 ---
-- hosts:
+- hosts: 172.31.30.129 
   become: yes
   tasks:
   - include_tasks: myfile.yaml
-  
+
