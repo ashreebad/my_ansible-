@@ -5,7 +5,7 @@
   - name: i want to install java on ubuntu nodes
     apt: 
       name: "{{myjavaonubuntu}}"
-      states: present
+      state: present
     when: ansible_os_family =="Debian"
 
   - name: i want to install java on redhat nodes
