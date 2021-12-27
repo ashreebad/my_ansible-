@@ -1,6 +1,6 @@
 ---
 mywebpackforubuntu: apache2
-mywebpackforredhat: httpdddd
+mywebpackforredhat: httpd
 
 
 myjavaonubuntu: openjdk-8-jre
