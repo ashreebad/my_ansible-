@@ -1,0 +1,6 @@
+---
+- hosts: 172.31.30.129
+  become: yes
+  tasks: 
+  - name: i want to execute linux command directly by playbook
+    command: hostname -f
