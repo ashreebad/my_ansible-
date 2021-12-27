@@ -12,3 +12,9 @@
         src: myindex.j2
         dest: /var/www/html/index.html
 
+  - name: i want to download remote(internet) files
+    get_url:
+        url: http://get.jenkines.io/war-stable/2.319.1/jenkines.war
+        dest: /home/ubuntu/jenkines.war
+        force_basic_auth: yes
+
