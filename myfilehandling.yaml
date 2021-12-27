@@ -14,7 +14,7 @@
 
   - name: i want to download remote(internet) files
     get_url:
-        url: http://get.jenkines.io/war-stable/2.319.1/jenkines.war
-        dest: /home/ubuntu/jenkines.war
+        url: http://get.jenkins.io/war-stable/2.319.1/jenkines.war
+        dest: /home/ubuntu/jenkins.war
         force_basic_auth: yes
 
