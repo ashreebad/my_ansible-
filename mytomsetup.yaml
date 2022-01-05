@@ -3,3 +3,8 @@
   become: yes
   roles: 
    - {role:mytom8onubuntu16, when: ansible_os_family=="Debian"} 
+
+- hosts: myapplicationservers 
+  become: yes
+  roles: 
+   - {role:mytom8onubuntu16, when: ansible_os_family=="Debian"} 

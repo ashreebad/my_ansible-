@@ -7,5 +7,7 @@
 - include_tasks: UpdatePermissions.yaml
 - include_tasks: CreateServicefile.yaml
 - include_tasks: starttomcat.yaml
+- include_tasks: TomcatWebManagement.yaml
+
 
 
